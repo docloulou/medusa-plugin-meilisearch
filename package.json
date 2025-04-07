@@ -20,6 +20,7 @@
   ],
   "main": ".medusa/server/src/index.js",
   "scripts": {
+    "prepare": "yarn run build",
     "build": "medusa plugin:build",
     "dev": "medusa plugin:develop",
     "prepublishOnly": "medusa plugin:build",
