@@ -7,7 +7,7 @@ export default async function meilisearchProductsIndexJob(container: MedusaConta
   const productService = container.resolve('product')
   const meilisearchService: MeiliSearchService = container.resolve('meilisearch')
 
-  const products = await productService.listProducts()
+  const products = await productService.listProducts({}, { relations: ['*'] })
 
   const publishedProducts = products.filter((p) => p.status === 'published')
   const deleteDocumentIds = products.filter((p) => p.status !== 'published').map((p) => p.id)
