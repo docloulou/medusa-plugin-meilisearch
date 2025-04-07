@@ -5,13 +5,13 @@
 Run the following command to install the plugin with **npm**:
 
 ```bash
-npm install --save @rokmohar/medusa-plugin-meilisearch
+npm install --save @docloulou/medusa-plugin-meilisearch
 ```
 
 Or with **yarn**:
 
 ```bash
-yarn add @rokmohar/medusa-plugin-meilisearch
+yarn add @docloulou/medusa-plugin-meilisearch
 ```
 
 ### Upgrade to v1.0
@@ -42,7 +42,7 @@ module.exports = defineConfig({
   plugins: [
     // ... other plugins
     {
-      resolve: '@rokmohar/medusa-plugin-meilisearch',
+      resolve: '@docloulou/medusa-plugin-meilisearch',
       options: {
         config: {
           host: process.env.MEILISEARCH_HOST ?? '',

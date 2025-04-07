@@ -1,12 +1,12 @@
 {
-  "name": "@rokmohar/medusa-plugin-meilisearch",
+  "name": "@docloulou/medusa-plugin-meilisearch",
   "version": "1.0.6",
   "description": "Meilisearch plugin for Medusa 2",
   "author": "Rok Mohar",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rokmohar/medusa-plugin-meilisearch.git"
+    "url": "https://github.com/docloulou/medusa-plugin-meilisearch.git"
   },
   "keywords": [
     "plugin",
@@ -20,7 +20,6 @@
   ],
   "main": ".medusa/server/src/index.js",
   "scripts": {
-    "prepare": "yarn run build",
     "build": "medusa plugin:build",
     "dev": "medusa plugin:develop",
     "prepublishOnly": "medusa plugin:build",
@@ -34,12 +33,12 @@
     "meilisearch": "^0.48.2"
   },
   "devDependencies": {
-    "@medusajs/admin-sdk": "^2.4.0",
-    "@medusajs/cli": "^2.4.0",
-    "@medusajs/framework": "^2.4.0",
-    "@medusajs/icons": "^2.4.0",
-    "@medusajs/medusa": "^2.4.0",
-    "@medusajs/test-utils": "^2.4.0",
+    "@medusajs/admin-sdk": "^2.6.1",
+    "@medusajs/cli": "^2.6.1",
+    "@medusajs/framework": "^2.6.1",
+    "@medusajs/icons": "^2.6.1",
+    "@medusajs/medusa": "^2.6.1",
+    "@medusajs/test-utils": "^2.6.1",
     "@medusajs/ui": "^4.0.3",
     "@mikro-orm/cli": "^6.4.3",
     "@mikro-orm/core": "^6.4.3",
