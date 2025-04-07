@@ -1,6 +1,6 @@
 {
   "name": "@docloulou/medusa-plugin-meilisearch",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "description": "Meilisearch plugin for Medusa 2",
   "author": "Rok Mohar",
   "license": "MIT",
